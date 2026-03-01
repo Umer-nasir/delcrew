@@ -84,7 +84,7 @@ with st.sidebar:
             llm_model = "openai/gpt-4o-mini"
             llm_provider = "OpenAI"
         elif api_key.startswith("gsk_"):
-            llm_model = "groq/llama3-8b-8192"
+            llm_model = "groq/llama-3.3-70b-versatile"
             llm_provider = "Groq"
         else:
             # Fallback if we can't detect it, default to attempting OpenAI format with whatever standard model, or ask user 
