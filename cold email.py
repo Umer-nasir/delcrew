@@ -307,4 +307,4 @@ if st.session_state.result:
 
 # Footer
 st.markdown("---")
-st.caption("Powered by  | Automated Outreach Suite")
+st.caption("Powered by Umer Tech| Automated Outreach Suite")
